@@ -1,266 +1,208 @@
-package quiz;
-
 import java.util.Scanner;
 
-public class quiz {
-	//Tema ESPORTE
-	public static void main(String[] args) {
-	Scanner sc = new Scanner(System.in);
-	
-	//Dados do usuario(Breno)
-	System.out.println("Digite seu nome:");
-	String nome = sc.next();
-	System.out.println("Insira sua idade:");
-	int idade = sc.nextInt();
-	
-	//Primeira questão(Breno)
-	System.out.println("\nA duração normal de uma partida para todas as equipes com\njogadores de idade igual ou acima de_______ anos é de_______ tempos de_______ minutos.\nO intervalo de jogo é normalmente de_______ minutos.\nA sequência que preenche corretamente as lacunas do texto é\n");
-	System.out.println("1 - 14|04|20|10\n2 - 12|02|25|20\n3 - 08|03|15|15\n4 - 16|02|30|10");
-	int q1 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q1 <1 || q1 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q1 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q1 == 4) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	
-	
-	//Segunda questão(Breno)
-	System.out.println("\nI. O voleibol é uma modalidade esportiva rica em regras. Nesse esporte, não é permitido, por exemplo, fazer a bola passar sobre a rede, utilizar luvas durante o jogo e nem mesmo formar duplas para uma competição.");
-	System.out.println("II. A prática do vôlei não exige a realização de movimentos dos membros superiores, pois os movimentos repetitivos praticados pelos atletas desse esporte compreendem apenas os movimentos dos membros inferiores.");
-	System.out.println("\nMarque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 -As duas afirmativas são falsas.\n");
-	int q2 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q2 <1 || q2 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q2 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q2 == 4) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Terceira questão(Breno)
-	System.out.println("\nI. O atletismo contribui para o desenvolvimento das habilidades motoras básicas dos alunos, que são utilizadas na maioria das atividades desportivas. Essas habilidades, quando trabalhadas de forma pontual, desencadeiam uma série de fatores intrínsecos ao desenvolvimento e aprimoramento dos fundamentos básicos e a própria cultura desportiva do educando.\r\n"
-	+ "\r\n"
-	+ "II. A ludicidade própria do atletismo molda o comportamento infantil, pois brincando de correr, pular e arremessar, as crianças aprendem e são motivadas a cooperar com os companheiros, a desobedecer as regras do jogo, a desrespeitar os direitos dos outros, a acatar a autoridade, a assumir responsabilidade e a aceitar penalidades que lhe são impostas.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A alternativa l é verdadeira, e a ll é falsa.\n3 - A afirmativa ll é verdadeira, e a l é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q3 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q3 <1 || q3 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q3 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q3 == 2) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Quarta questão(Breno)
-	System.out.println("\nI. O atletismo é um esporte muito simples e barato, uma vez que não demanda de materiais caros para exercer sua prática, sendo, portanto, fácil de ser praticado pelos alunos em forma de oficinas. Essa prática proporciona infinitos benefícios aos educandos, entre eles a aquisição e manutenção de uma boa saúde, o desenvolvimento motor e afetivo, independência e a autonomia.\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "II. O atletismo representa um conjunto de esportes constituído por várias modalidades, como a corrida, a marcha, os lançamentos e os saltos. De modo geral, no ambiente escolar, o Professor de Educação Física deve compelir o educando a realizar as atividades com insatisfação, evitando seguir quaisquer princípios de higiene ou de preservação da saúde dos alunos.\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q4 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q4 <1 || q4 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q4 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q4 == 2) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Quinta questão(Breno)
-	System.out.println("I. O voleibol busca promover a desagregação do grupo de atletas, pois trata-se de um esporte competitivo e que deve ser praticado exclusivamente em torneios.\r\n"
-	+ "\r\n"
-	+ "II. No voleibol, não é permitido fazer a bola passar sobre a rede, o que caracteriza uma falta. Assim, para marcar um ponto, o jogador deve acertar a bola na rede do time adversário após um saque único.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q5 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q5 <1 || q5 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q5 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q5 == 4) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Sexta questão(Breno)
-	System.out.println("I. O voleibol é um esporte jogado com uma bola e inclui diversos passes com as mãos. O objetivo principal desse jogo é lançar a bola por cima da rede e fazê-la tocar no chão do lado do adversário.\r\n"
-	+ "\r\n"
-	+ "II. O treinamento de defesa para o voleibol escolar pode ser um dos fundamentos mais difíceis de se praticar e treinar quando se dispõe apenas de quadras de cimento.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q6 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q6 <1 || q6 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q6 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q6 == 1) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Setima questão(Breno)
-	System.out.println("I. O voleibol busca promover a desagregação do grupo de atletas, pois trata-se de um esporte competitivo e que deve ser praticado exclusivamente em torneios.\r\n"
-	+ "\r\n"
-	+ "II. No voleibol, não é permitido fazer a bola passar sobre a rede, o que caracteriza uma falta. Assim, para marcar um ponto, o jogador deve acertar a bola na rede do time adversário após um saque único.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q7 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q7 <1 || q7 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q7 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q7 == 4) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Oitava questão(Breno)
-	System.out.println("I. A dança, na Educação Física escolar, oferece oportunidade aos alunos de experimentar atividades diversificadas que contemplam a pluralidade cultural, pois por meio da dança é possível aos alunos desenvolver diferentes movimentos corporais e reconhecer seu próprio corpo.\r\n"
-	+ "\r\n"
-	+ "II. As danças e as brincadeiras cantadas que têm como características comuns a intenção de expressão e comunicação mediante gestos e a presença de estímulos sonoros, no contexto da Educação Física escolar e à luz dos Parâmetros Curriculares Nacionais, são consideradas atividades rítmicas e expressivas.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA: ");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A afirmativa I é verdadeira, e a II é falsa.\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q8 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q8 <1 || q8 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q8 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q8 == 1) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Nona questão(Breno)
-	System.out.println("Analise as afirmativas a seguir:\r\n"
-	+ "\r\n"
-	+ "I. No contexto da Educação Física escolar, a dança permite criar condições para que os educandos possam desenvolver seu sentimento de coletividade, suas capacidades criativas, superar desafios, valorizar a ética e organizar os próprios conflitos internos e externos.\r\n"
-	+ "\r\n"
-	+ "II. A dança, na Educação Física escolar, permite criar condições para os educandos descobrirem novos espaços e formas, superando as suas limitações e condições para enfrentar novos desafios em relação aos aspectos motores, sociais, afetivos e cognitivos.\r\n"
-	+ "\r\n"
-	+ "Marque a alternativa CORRETA:");
-	System.out.println("1 - As duas afirmativas são verdadeiras.\n2 - A afirmativa I é verdadeira, e a II é falsa\n3 - A afirmativa II é verdadeira, e a I é falsa.\n4 - As duas afirmativas são falsas.\n");
-	int q9 = sc.nextInt();
-	
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q9 <1 || q9 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q9 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q9 == 1) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	//Decima questão(Breno)
-	System.out.println("Informe se é verdadeiro (V) ou falso (F) o que se afirma sobre o voleibol.\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "( ) A bola será esférica, dotada de uma capa flexível de couro ou couro sintético, além de uma câmara interior feita de borracha ou material similar.\r\n"
-	+ "\r\n"
-	+ "( ) A quadra de jogo é um retângulo medindo 18 metros x 9 metros, circundada por uma zona livre de, no mínimo, 3 metros de largura em todos os lados.\r\n"
-	+ "\r\n"
-	+ "( ) A rede é colocada verticalmente sobre a linha central; sua parte superior é ajustada a 2,43 metros do solo para as mulheres e a 2,24 metros para os homens.\r\n"
-	+ "\r\n"
-	+ "( ) A superfície para a sua prática deve ser plana, horizontal e uniforme; não deve apresentar nenhum perigo de lesão aos jogadores. É proibido jogar sobre uma superfície rugosa ou escorregadia.\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "\r\n"
-	+ "De acordo com as afirmações, a sequência correta é");
-	System.out.println("1 - V, V, F, V.\n2 - F, V, V, F.\n3 - V, F, F, V.\n4 - F, F, V, F.\n");
-	int q10 = sc.nextInt();
+public class Atividades {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-	//Verifica se a alternativa esta 1 e 4(Eduarda)
-	while(q10 <1 || q10 >4) {
-	System.out.println("Alternativa invalida!");
-	System.out.println("Tente novamente:");
-	q10 = sc.nextInt();
-	}
-	
-	//Analisa se a questão esta correta ou errada(Breno)
-	if(q10 == 1) {
-	System.out.println("Correto!");
-	}else {
-	System.out.println("Errado!");
-	}
-	
-	System.out.println("Obrigado por responder nosso quiz "+nome+"!");
-	System.out.println("Criado por Breno e Eduarda!");
-	
-	sc.close();
-	}
+        System.out.println("Escolha uma atividade (1-8):");
+        int skip = 1;
+        skip = in.nextInt();
+        while (skip > 8 || skip < 1) {
+            System.out.println("Está atividade não existe:");
+            skip = in.nextInt();
+        }
+        switch (skip) {
+            case 1:
+                System.out.println("1- Digite dois números e direi qual o maior!");
+                int numero;
+                numero = in.nextInt();
+                System.out.println("Digite outro número:");
+                int n1;
+                n1 = in.nextInt();
+                if (numero > n1) {
+                    System.out.println(numero + " é maior que " + n1);
+                } else if (numero < n1) {
+                    System.out.println(numero + " é menor que " + n1);
+                } else {
+                    System.out.println(numero + " e " + n1 + " são o mesmo numero!");
+                }
+                break;
+            case 2:
+                System.out.println("2- Digite F(feminino) ou M(masculino)");
+                String sexo;
+                sexo = in.next();
+                if (sexo.equals("m") || sexo.equals("M")) {
+                    System.out.println("Cê é macho");
+                } else if (sexo.equals("F") || sexo.equals("f")) {
+                    System.out.println("Feminino");
+                } else {
+                    System.out.println("Sexo invalido!");
+                }
+                break;
+            case 3:
+                System.out.println("3- Digite uma letra, direi se é vogal ou consoante.");
+                sexo = in.next();
+                if (sexo.equals("a") || sexo.equals("e") || sexo.equals("i") || sexo.equals("o") || sexo.equals("u") || sexo.equals("A") || sexo.equals("E") || sexo.equals("I") || sexo.equals("O") || sexo.equals("U")) {
+                    System.out.println(sexo + " é uma vogal");
+
+                } else if (sexo.equals("0") || sexo.equals("1") || sexo.equals("2") || sexo.equals("3") || sexo.equals("4") || sexo.equals("5") || sexo.equals("6") || sexo.equals("7") || sexo.equals("8") || sexo.equals("9")) {
+                    System.out.println("isso é um número truta");
+                } else {
+                    System.out.println(sexo + " é uma consoante!");
+                }
+                break;
+            case 4:
+                float f1, f2 = 0, f3;
+                System.out.println("4- Vamos calcular sua média!");
+                System.out.println("Digite sua primeira nota:");
+                f1 = in.nextInt();
+                while (f1 < 0 || f1 > 10) {
+                    System.out.println("Essa nota não existe");
+                    f1 = in.nextInt();
+                }
+                System.out.println("Digite sua segunda nota:");
+                f2 = in.nextInt();
+                while (f2 < 0 || f2 > 10) {
+                    System.out.println("Tentando me testar? Esta media não existe");
+                    f2 = in.nextInt();
+                }
+                float media = (f1 + f2) / 2;
+
+                if (media >= 7) {
+                    System.out.print("Aprovado");
+                    if (media == 10) {
+                        System.out.println(" com distinção!");
+                    }
+                } else {
+                    System.out.println("Reprovado");
+                }
+                break;
+            case 5:
+                int menor;
+                int n2;
+
+                System.out.println("5- Digite três números e direi qual o maior e menor!:");
+                numero = in.nextInt();
+                System.out.println("Digite outro número:");
+                n1 = in.nextInt();
+                System.out.println("Digite o terceiro número");
+                n2 = in.nextInt();
+                if (n1 > numero) {
+                    menor = numero;
+                    numero = n1;
+                } else {
+                    menor = n1;
+                }
+                if (n2 > numero) {
+                    if (menor > numero) {
+                        menor = numero;
+                    }
+                    numero = n2;
+                } else if (n2 < menor) {
+                    menor = n2;
+                }
+                System.out.println("O maior número foi " + numero);
+                System.out.println("O menor número foi " + menor);
+                break;
+            case 6:
+                System.out.println("6- Vamos criar um triângulo, diga três lados:");
+                numero = in.nextInt();
+                n1 = in.nextInt();
+                n2 = in.nextInt();
+                if (numero < n1 + n2 && n1 < numero + n2 && n2 < numero + n1) {
+                    System.out.print("ótimo, isto é um triângulo ");
+
+                    if (numero == n1 && numero == n2) {
+                        System.out.println("equilatero!");
+                    } else if (numero == n1 || numero == n2) {
+                        System.out.println("Isosceles!");
+                    } else {
+                        System.out.println("obtuso!");
+                    }
+                } else {
+                    System.out.println("Não é um triângulo");
+                }
+                break;
+            case 7:
+                System.out.println("7- Responda minhas perguntas:");
+                String decisao;
+                int suspeita = 0;
+                System.out.println("Telefonou para a vítima?");
+                decisao = in.next();
+                if (decisao.equals("sim") || decisao.equals("s") || decisao.equals("SIM") || decisao.equals("S")) {
+                    suspeita++;
+                }
+                System.out.println("Esteve no local do crime?");
+                decisao = in.next();
+                if (decisao.equals("sim") || decisao.equals("s") || decisao.equals("SIM") || decisao.equals("S")) {
+                    suspeita++;
+                }
+                System.out.println("Mora perto da vítima?");
+                decisao = in.next();
+                if (decisao.equals("sim") || decisao.equals("s") || decisao.equals("SIM") || decisao.equals("S")) {
+                    suspeita++;
+                }
+                System.out.println("Devia para a vítima?");
+                decisao = in.next();
+                if (decisao.equals("sim") || decisao.equals("s") || decisao.equals("SIM") || decisao.equals("S")) {
+                    suspeita++;
+                }
+                System.out.println("Já trabalhou com a vítima?");
+                decisao = in.next();
+                if (decisao.equals("sim") || decisao.equals("s") || decisao.equals("SIM") || decisao.equals("S")) {
+                    suspeita++;
+                }
+
+                switch (suspeita) {
+                    case 2:
+                        System.out.println("suspeito");
+                        break;
+                    case 3:
+                        System.out.println("cúmplice");
+                        break;
+                    case 4:
+                        System.out.println("cúmplice");
+                        break;
+                    case 5:
+                        System.out.println("Assassino");
+                        break;
+                    default:
+                        System.out.println("Inocente");
+                        break;
+                }
+                break;
+            default:
+                System.out.println("8- Quanto quer de morangos(Kg)?");
+                double m1, m2;
+                double morango, maca;
+                m1 = in.nextDouble();
+                morango = m1 * 2.5;
+                if (m1 > 5) {
+                    morango = m1 * 2.2;
+                }
+                System.out.println("Quanto quer de maçã?(Kg)");
+                m2 = in.nextDouble();
+                maca = m2 * 1.8;
+                if (m2 > 5) {
+                    maca = m2 * 1.5;
+                }
+                double compra = maca + morango;
+
+                if (compra > 25.00 || m1 + m2 > 8) {
+                    compra -= compra * 10 / 100;
+                }
+                System.out.println("Você comprou " + m1 + "kg de morango e " + m2 + "kg de maçã, custando R$" + compra);
+
+        }
+        System.out.println("Para parar digite 0, voltar ao inicio digite qualquer tecla:");
+        String acabar;
+        acabar = in.next();
+        if (acabar.equals("0")) {
+            System.out.println("Obrigado por particpar, tenha um bom dia!");
+        }
+        else {
+                        main(args);
+        }
+    }
+
+}
